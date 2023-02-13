@@ -11,7 +11,7 @@ def number():
     # Write the value 4 to the power of 5 and assign it to variable x.
     x = 4 ** 5
     # Write the value x divided by 3 and assign it to variable y.
-    y = x // 3
+    y = x//3
     return x,y
 
 def strings():
@@ -48,9 +48,8 @@ def list_1D():
     """
     s = " hoboken,is,awesome,i,like,it "
     #Remove whitespace characters on both side and assign it to a new variable hoboken.
-
-    hoboken = s.rstrip(" ")
-    hoboken = s.lstrip(" ")
+    
+    hoboken = s.strip(" ")
 
     # Split variable hoboken on a delimiter(comma) into a list of substrings and assign it to a new variable hoboken_list.
 
